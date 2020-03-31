@@ -1,6 +1,7 @@
 import React from 'react';
+import { AllRoutes } from '~/routes/paramsList';
 
 export default interface IRoute {
-    name: string;
+    name: AllRoutes;
     component: React.ComponentType<any>;
 }

@@ -1,12 +1,13 @@
 // Screens
 import SignUp from '../screens/SignUp';
+import { AllRoutes } from './paramsList';
+import IRoute from '~/interfaces/IRoute';
 
 // Interface
-import IRoute from '~/interfaces/IRoute';
 
 const privateRoutes: IRoute[] = [
     {
-        name: 'SignUp',
+        name: AllRoutes.SignUp,
         component: SignUp,
     },
 ];

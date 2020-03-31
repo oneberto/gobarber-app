@@ -1,17 +1,18 @@
 // Screens
 import SignIn from '../screens/SignIn';
 import SignUp from '../screens/SignUp';
+import IRoute from '~/interfaces/IRoute';
+import { AllRoutes } from './paramsList';
 
 // Interface
-import IRoute from '~/interfaces/IRoute';
 
 const mainRoutes: IRoute[] = [
     {
-        name: 'SignIn',
+        name: AllRoutes.SignIn,
         component: SignIn,
     },
     {
-        name: 'SignUp',
+        name: AllRoutes.SignUp,
         component: SignUp,
     },
 ];
